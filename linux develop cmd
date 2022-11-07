@@ -1,0 +1,13 @@
+默认的 Ubuntu 软件源包含了一个软件包组，名称为 "build-essential",它包含了 GNU 编辑器集合，GNU 调试器，和其他编译软件所必需的开发库和工具。
+想要安装开发工具软件包，以 拥有 sudo 权限用户身份或者 root 身份运行下面的命令：
+
+sudo apt update
+sudo apt install build-essential
+这个命令将会安装一系列软件包，包括gcc,g++,和make。
+你可能还想安装关于如何使用 GNU/Linux开发的手册。
+
+sudo apt-get install manpages-dev
+通过运行下面的命令，打印 GCC 版本，来验证 GCC 编译器是否被成功地安装。
+
+gcc --version
+在 Ubuntu 20.04 软件源中 GCC 的默认可用版本号为9.3.0:
